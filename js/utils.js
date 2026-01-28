@@ -1,5 +1,5 @@
 /**
- * WebPro - Utilitários JavaScript
+ * torres - Utilitários JavaScript
  * ================================
  */
 
