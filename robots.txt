@@ -1,0 +1,12 @@
+# robots.txt - WebPro
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.seusite.com.br/sitemap.xml
+
+# Diretórios bloqueados (ajuste conforme necessário)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$

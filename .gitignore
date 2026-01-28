@@ -1,0 +1,44 @@
+# Dependências
+node_modules/
+vendor/
+
+# Build
+dist/
+build/
+.cache/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos compactados (para não versionar zips)
+*.zip
+*.tar.gz
+*.rar
