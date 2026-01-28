@@ -1,5 +1,5 @@
 /**
- * WebPro - JavaScript Principal
+ * torres - JavaScript Principal
  * ============================
  */
 
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ============================================
     // Console Welcome Message
     // ============================================
-    console.log('%c🚀 WebPro - Site Profissional', 'color: #2563eb; font-size: 20px; font-weight: bold;');
+    console.log('%c🚀 torres - Site Profissional', 'color: #2563eb; font-size: 20px; font-weight: bold;');
     console.log('%cDesenvolvido com ❤️', 'color: #64748b; font-size: 12px;');
 
 });
