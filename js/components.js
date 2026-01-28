@@ -1,5 +1,5 @@
 /**
- * WebPro - Componentes JavaScript
+ * torres - Componentes JavaScript
  * =================================
  */
 
