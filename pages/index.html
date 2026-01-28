@@ -531,5 +531,34 @@
     <script src="js/utils.js"></script>
     <script src="js/components.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Cole isso ANTES de fechar </body> -->
+<script>
+// Função para esconder tudo que possa ser marca d'água
+(function() {
+    // Esconder elementos suspeitos
+    const allElements = document.querySelectorAll("*");
+    allElements.forEach(el => {
+        const html = el.innerHTML.toLowerCase();
+        const id = (el.id || "").toLowerCase();
+        const classes = (el.className || "").toLowerCase();
+        if(html.includes("webpro") || id.includes("webpro") || classes.includes("webpro")) {
+            el.style.display = "none";
+        }
+    });
+
+    // Esconder iframes que puxem WebPro
+    const iframes = document.querySelectorAll("iframe");
+    iframes.forEach(iframe => {
+        if(iframe.src.toLowerCase().includes("webpro")) {
+            iframe.style.display = "none";
+        }
+    });
+
+    // Esconder footers suspeitos
+    const footers = document.querySelectorAll("footer, .footer, .footer-webpro");
+    footers.forEach(f => f.style.display = "none");
+})();
+</script>
 </body>
 </html>
